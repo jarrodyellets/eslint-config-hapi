@@ -3,19 +3,13 @@
 
 | Rule | Option |
 |------|--------|
-| @hapi/hapi/capitalize-modules | ['warn', 'global-scope-only'] |
-
-| @hapi/hapi/for-loop' | ['warn', { maxDepth: 3, startIterator: 'i' }] |
-
-'@hapi/hapi/no-var': 'error'
-
-'@hapi/hapi/scope-start': 'warn'
-
-'@hapi/hapi/no-arrowception': 'error'
-
-'camelcase': 'off'
-
-'consistent-return': 'off'
+| '@hapi/hapi/capitalize-modules' | ['warn', 'global-scope-only'] |
+| '@hapi/hapi/for-loop' | ['warn', { maxDepth: 3, startIterator: 'i' }] |
+| '@hapi/hapi/no-var' | 'error' |
+| '@hapi/hapi/scope-start' | 'warn' |
+| '@hapi/hapi/no-arrowception' | 'error' |
+| 'camelcase' | 'off' |
+| 'consistent-return' | 'off' |
 
 'vars-on-top': 'off'
 
