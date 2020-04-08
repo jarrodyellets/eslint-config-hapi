@@ -1,9 +1,11 @@
 
 ### Rules
 
-'@hapi/hapi/capitalize-modules': ['warn', 'global-scope-only']
+| Rule | Option |
+|------|--------|
+| @hapi/hapi/capitalize-modules | ['warn', 'global-scope-only'] |
 
-'@hapi/hapi/for-loop': ['warn', { maxDepth: 3, startIterator: 'i' }
+| @hapi/hapi/for-loop' | ['warn', { maxDepth: 3, startIterator: 'i' }] |
 
 '@hapi/hapi/no-var': 'error'
 
