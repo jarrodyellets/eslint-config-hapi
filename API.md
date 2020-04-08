@@ -91,4 +91,4 @@
 | **'rest-spread-spacing'** | ['error', 'never'] |
 | **'no-extra-semi'** | 'error' |
 | **'no-dupe-keys'** | 'error' |
-| **'padding-line-between-statements'** | ['error', { blankLine: 'always', prev: 'directive', next: '\*' }, <br>{ blankLine: 'any', prev: 'directive', next: 'directive' }, <br>{ blankLine: 'always', prev: 'cjs-import', next: '\*' }, <br>{ blankLine: 'any', prev: 'cjs-import', next: 'cjs-import' }, <br>{ blankLine: 'always', prev: 'cjs-export', next: '\*' }, <br>{ blankLine: 'always', prev: 'multiline-block-like', next: '\*' }, <br>{ blankLine: 'always', prev: 'class', next: '\*' }] |
+| **'padding-line-between-statements'** | [<br>'error', <br>{ blankLine: 'always', prev: 'directive', next: '\*' }, <br>{ blankLine: 'any', prev: 'directive', next: 'directive' }, <br>{ blankLine: 'always', prev: 'cjs-import', next: '\*' }, <br>{ blankLine: 'any', prev: 'cjs-import', next: 'cjs-import' }, <br>{ blankLine: 'always', prev: 'cjs-export', next: '\*' }, <br>{ blankLine: 'always', prev: 'multiline-block-like', next: '\*' }, <br>{ blankLine: 'always', prev: 'class', next: '\*' }<br>] |
