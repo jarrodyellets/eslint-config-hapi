@@ -41,108 +41,57 @@
 | **'arrow-parens'** | ['error', 'always'] |
 | **'arrow-spacing'** | ['error', { before: true, after: true }] |
 | **'quotes'** | ['error', 'single', { allowTemplateLiterals: true }] |
-
-'consistent-this': ['error', 'self'
-
-'new-parens': 'error'
-
-'no-array-constructor': 'error'
-
-'no-confusing-arrow': 'error'
-
-'no-new-object': 'error'
-
-'no-spaced-func': 'error'
-
-'no-mixed-spaces-and-tabs': 'error
-
-'key-spacing': 'error
-
-'keyword-spacing': ['error', { before: true, after: true }]
-
-'semi': ['error', 'always']
-
-'semi-spacing': ['error', { before: false, after: true }
-
-'space-before-blocks': 'error'
-
-'space-infix-ops': 'error'
-
-'space-unary-ops': ['warn', { words: true, nonwords: false }]
-
-'strict': ['error', 'global']
-
-'eqeqeq': 'error'
-
-'curly': ['error', 'all']
-
-'no-eval': 'error'
-
-'no-else-return': 'error'
-
-'no-return-assign': 'error'
-
-'no-new-wrappers': 'error'
-
-'comma-dangle': ['error', 'never']
-
-'no-sparse-arrays': 'error'
-
-'no-ex-assign': 'error'
-
-'prefer-arrow-callback': 'error'
-
-'prefer-const': ['error', { destructuring: 'all' }]
-
-'indent': ['error', 4, { SwitchCase: 1 }]
-
-'space-before-function-paren': ['error', { anonymous: 'always', named: 'never' }]
-
-'func-style': ['error', 'expression']
-
-'object-curly-spacing': ['error', 'always']
-
-'object-shorthand': ['error', 'properties']
-
-'no-unsafe-finally': 'error'
-
-'no-useless-computed-key': 'error'
-
-'require-await': 'error'
-
-'constructor-super': 'error'
-
-'no-buffer-constructor': 'error'
-
-'no-mixed-requires': 'error'
-
-'no-new-require': 'error'
-
-'no-caller': 'error'
-
-'no-const-assign': 'error'
-
-'no-dupe-class-members': 'error'
-
-'no-class-assign': 'warn'
-
-'no-new-symbol': 'error
-
-'no-this-before-super': 'error'
-
-'prefer-rest-params': 'error'
-
-'prefer-spread': 'error'
-
-'no-useless-call': 'error'
-
-'rest-spread-spacing': ['error', 'never']
-
-'no-extra-semi': 'error'
-
-'no-dupe-keys': 'error'
-
-'padding-line-between-statements': [
+| **'consistent-this'** | ['error', 'self'] |
+| **'new-parens'** | 'error' |
+| **'no-array-constructor'** | 'error' |
+| **'no-confusing-arrow'** | 'error' |
+| **'no-new-object'** | 'error' |
+| **'no-spaced-func'** | 'error' |
+| **'no-mixed-spaces-and-tabs'** | 'error' | 
+| **'key-spacing'** | 'error' |
+| **'keyword-spacing'** | ['error', { before: true, after: true }] |
+| **'semi'** | ['error', 'always'] |
+| **'semi-spacing'** | ['error', { before: false, after: true }] |
+| **'space-before-blocks'** | 'error' |
+| **'space-infix-ops'** | 'error' |
+| **'space-unary-ops'** | ['warn', { words: true, nonwords: false }] |
+| **'strict'** | ['error', 'global'] |
+| **'eqeqeq'** | 'error' |
+| **'curly'** | ['error', 'all'] |
+| **'no-eval'** | 'error' |
+| **'no-else-return'** | 'error' |
+| **'no-return-assign'** | 'error' |
+| **'no-new-wrappers'** | 'error' |
+| **'comma-dangle'** | ['error', 'never'] |
+| **'no-sparse-arrays'** | 'error' |
+| **'no-ex-assign'** | 'error' |
+| **'prefer-arrow-callback'** | 'error' |
+| **'prefer-const'** | ['error', { destructuring: 'all' }] |
+| **'indent'** | ['error', 4, { SwitchCase: 1 }] |
+| **'space-before-function-paren'** | ['error', { anonymous: 'always', named: 'never' }] |
+| **'func-style'** | ['error', 'expression'] |
+| **'object-curly-spacing'** | ['error', 'always'] |
+| **'object-shorthand'** | ['error', 'properties'] |
+| **'no-unsafe-finally'** | 'error' |
+| **'no-useless-computed-key'** | 'error' |
+| **'require-await'** | 'error' |
+| **'constructor-super'** | 'error' |
+| **'no-buffer-constructor'** | 'error' |
+| **'no-mixed-requires'** | 'error' |
+| **'no-new-require'** | 'error' |
+| **'no-caller'** | 'error' |
+| **'no-const-assign'** | 'error' |
+| **'no-dupe-class-members'** | 'error' |
+| **'no-class-assign'** | 'warn' |
+| **'no-new-symbol'** | 'error |
+| **'no-this-before-super'** | 'error' |
+| **'prefer-rest-params'** | 'error' |
+| **'prefer-spread'** | 'error' |
+| **'no-useless-call'** | 'error' |
+| **'rest-spread-spacing'** | ['error', 'never'] |
+| **'no-extra-semi'** | 'error' |
+| **'no-dupe-keys'** | 'error' |
+| **'padding-line-between-statements'** | [
     'error',
     { blankLine: 'always', prev: 'directive', next: '*' },
     { blankLine: 'any', prev: 'directive', next: 'directive' },
@@ -151,4 +100,4 @@
     { blankLine: 'always', prev: 'cjs-export', next: '*' },
     { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
     { blankLine: 'always', prev: 'class', next: '*' }
-]
+] |
