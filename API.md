@@ -27,7 +27,7 @@
 | **'no-shadow'** | ['warn', { allow: ['err', 'done'] }] |
 | **'no-unused-vars'** | ['warn', { vars: 'all', varsIgnorePattern: '^internals$', args: 'none' }] |
 | **'one-var'** | ['error', 'never'] |
-| **'handle-callback-err'** | ['error', '^(e|err|error)$'] |
+| **'handle-callback-err'** | ['error', '^(e\|err\|error)$'] |
 | **'array-bracket-spacing'** | 'warn' |
 | **'dot-notation'** | 'warn' |
 | **'eol-last'** | 'warn' |
